@@ -53,6 +53,8 @@ For example, to map the vector_rescale benchmark on top of the architecture pres
 dot2blif/runMain frontend.apply bench arch=decoupled dot=vector_rescale cp=10.0 mode=all disp=on parallel
 ```
 
+This open-source release only supports the non-timing-driven flow.
+
 All generated files are placed within the `build` folder. In particular, the above command will generate the `build/decoupled/Default/vector_rescale/` folder. It will itself contain:
 - `base/asts/`: The Abstract Syntax Trees (ASTs) representing the architecture clusters.
 - `base/lowering/`: Various dump of the circuit at different stages in the compiler, in dot format, before buffer placement.
