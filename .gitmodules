@@ -1,0 +1,6 @@
+[submodule "submodules/dynamatic"]
+	path = submodules/dynamatic
+	url = https://github.com/EPFL-LAP/dynamatic.git
+[submodule "submodules/vtr-verilog-to-routing"]
+	path = submodules/vtr-verilog-to-routing
+	url = https://github.com/kb29x37/vtr-verilog-to-routing.git
